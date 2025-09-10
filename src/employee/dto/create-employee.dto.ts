@@ -1,1 +1,5 @@
-export class CreateEmployeeDto {}
+export class CreateEmployeeDto {
+      fullName: string;
+    
+      position: string;
+}
